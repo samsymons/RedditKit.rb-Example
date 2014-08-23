@@ -10,6 +10,17 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require normalize
  *= require_tree .
  *= require_self
  */
+
+#main-header {
+  height: 50px;
+  border-bottom: 1px solid #eee;
+}
+
+#content {
+  margin: auto;
+  width: 860px;
+}

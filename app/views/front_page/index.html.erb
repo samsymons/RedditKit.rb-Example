@@ -1,0 +1,5 @@
+<h1>Front Page</h1>
+
+<% @links.each do |link| %>
+  <%= render partial: 'partials/link', locals: { link: link } %>
+<% end %>
