@@ -15,6 +15,11 @@
  *= require_self
  */
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 #main-header {
   height: 50px;
   border-bottom: 1px solid #eee;
@@ -23,4 +28,14 @@
 #content {
   margin: auto;
   width: 860px;
+}
+
+.link {
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px dotted #eee;
+}
+
+.link-title {
+  font-weight: normal;
+  font-size: 18px;
 }
