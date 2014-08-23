@@ -1,0 +1,6 @@
+{
+  "name": "RedditKit.rb Example",
+  "description": "A simple Rails app using RedditKit.rb",
+  "repository": "https://github.com/samsymons/redditkit.rb-example",
+  "keywords": ["rails", "reddit", "redditkit"]
+}
