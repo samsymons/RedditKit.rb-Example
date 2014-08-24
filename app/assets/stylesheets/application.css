@@ -25,8 +25,17 @@ a {
 }
 
 #main-header {
-  height: 50px;
+  margin-bottom: 20px;
+  padding: 13px 0px;
   border-bottom: 1px solid #eee;
+}
+
+.main-header-title {
+  margin: 0px;
+  text-align: center;
+
+  font-weight: 400;
+  font-size: 18px;
 }
 
 #content {
